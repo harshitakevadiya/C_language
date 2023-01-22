@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+	int i,n,fact;
+	clrscr();
+	printf("\nEnter the value of N :=");
+	scanf("%d",&n);
+	i=1;
+	fact=1;
+	do
+	{
+		fact=fact*i;
+
+		i++;
+	}
+	while(i<=n);
+	printf("\nfactorial := %d",fact);
+	getch();
+}
