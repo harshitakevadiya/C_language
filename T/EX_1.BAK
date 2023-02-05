@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+	clrscr();
+	int i;
+	for(i='a';i<='z';i++)
+	{
+
+		printf("%c ",i);
+	}
+	getch();
+}
